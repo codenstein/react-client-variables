@@ -1,0 +1,31 @@
+{
+  "name": "react-client-variables",
+  "description": "Create-react-app library to allow server-side runtime environment variables to be made available to client-side scripts",
+  "version": "1.0.0",
+  "bin": {
+    "react-client-variables": "client.js"
+  },
+  "main": "index.js",
+  "license": "MIT",
+  "keywords": [
+    "create-react-app",
+    "cra"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codenstein/react-client-variables.git"
+  },
+  "author": "Martin Grossi <martin.grossi@enlightenedmouse.com>",
+  "bugs": {
+    "url": "https://github.com/codenstein/react-client-variables/issues"
+  },
+  "homepage": "https://github.com/codenstein/react-client-variables#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "envsub": "^4.0.7",
+    "node-html-parser": "^3.0.4"
+  },
+  "peerDependencies": {
+    "react": "^17.0.1"
+  }
+}
