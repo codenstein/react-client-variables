@@ -33,7 +33,7 @@ head.insertAdjacentHTML(
     script.push(`window["$$client-variables"] = { ${env.join(",")} };`);
 
     return [
-      '<script id="react-client-variables" type="text-javascript">',
+      '<script id="react-client-variables" type="text/javascript">',
       script.join(""),
       "</script>",
     ].join("");
