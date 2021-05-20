@@ -1,7 +1,7 @@
 {
   "name": "react-client-variables",
   "description": "Create-react-app library to allow server-side runtime environment variables to be made available to client-side scripts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "bin": {
     "react-client-variables": "client.js"
   },
